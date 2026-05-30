@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Inter", sans-serif;
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-script: "Great Vibes", cursive;
+  
+  --color-boutique-pink: #fdfaf8;
+  --color-boutique-rose: #d81b60;
+  --color-boutique-gold: #d81b60;
+  --color-boutique-dark: #2d1e1e;
+  --color-gold-accent: #d81b60;
+  --color-warm-cream: #fff0f3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfaf8;
+}
+::-webkit-scrollbar-thumb {
+  background: #fce4ec;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d81b60;
+}
+
+/* Luxury card effect and Frosted Glass theme helpers */
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.frosted-glass-light {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.frosted-glass-dark {
+  background: rgba(45, 30, 30, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.luxury-glass {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+/* Highlight glow */
+.gold-glow {
+  box-shadow: 0 0 20px rgba(216, 27, 96, 0.15);
+}
+
+.pulsing-border {
+  animation: pulses 25s infinite alternate;
+}
+
+@keyframes pulses {
+  0% {
+    border-color: rgba(252, 228, 236, 0.4);
+  }
+  100% {
+    border-color: rgba(216, 27, 96, 0.8);
+  }
+}
+
+

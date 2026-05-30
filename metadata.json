@@ -1,0 +1,6 @@
+{
+  "name": "Nails by Prapti",
+  "description": "Luxurious nail art showcase, pricing menu, client feedback, and direct WhatsApp booking CRM system for Nails by Prapti.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
